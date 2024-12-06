@@ -1,0 +1,116 @@
+
+Aplicação das Metodologias da Verra para Projetos REDD na Amazônia Legal.
+
+A Amazônia Legal, especificamente o estado do Amazonas, é uma região crucial para projetos de Redução de Emissões por Desmatamento e Degradação Florestal (REDD). 
+A implementação desses projetos exige rigor na aplicação de metodologias específicas para garantir a precisão e a eficácia das ações de conservação. 
+
+Este artigo aborda a aplicação das metodologias da Verra (VM48, VM55 e VT007) para projetos REDD na Amazônia Legal, destacando o processo de desenvolvimento de 
+mapas de risco e a alocação de desmatamento para jurisdições específicas do projeto.
+
+VM0048: Reducing Emissions from Deforestation and Forest Degradation, v1.0
+VMD0055: Estimation of Emission Reductions from Avoiding Unplanned Deforestation, v1.0
+VT0007: Unplanned Deforestation Allocation (UDef-A), v1.0
+
+1. Desenvolvimento de Mapas de Risco e Alocação de Desmatamento
+Para cumprir os requisitos jurisdicionais dos projetos REDD, estamos utilizando dados da coleção mais recente do Mapbiomas (coleções 8 e 9) para mapear e monitorar o desmatamento e outras mudanças no uso do solo.
+
+Imagem 01 - Mapa da Distância da Floresta para inicio do HRP: Periodo de Referência Historica. 
+
+Este processo envolve:
+
+Identificação do desmatamento: Utilização de dados de múltiplas fontes, como Prodes-Deter 2023, RADD-ALERT, TMF-JRC 2023, Hansen 2023, para detectar e monitorar áreas de desmatamento;
+
+Imagem 02 - ArcGIS Pro - Visualização da imagem Planet Scope para o ano de 2020, área delimitada como Área Úmida.
+
+Imagem após desmatamento ilegal provocado por garimpo
+
+Imagem 03 - ArcGIS Pro mostra imagem do Planet NICFI de maio de 2024, revelando desmatamento de cerca de 2.700 hectares em área úmida de Borba-AM, possivelmente devido ao "garimpo ilegal".
+
+Análise de Imagem do ArcGIS Pro Revela Desmatamento em Área Úmida no Município de Borba-AM
+
+A imagem gerada no ArcGIS Pro utilizando dados do Planet NICFI para o mês de maio de 2024 revela um desmatamento significativo em uma área úmida de aproximadamente 2.700 hectares no município de Borba-AM. 
+Esse evento, possivelmente resultante de atividades de "garimpo ilegal", destaca um padrão preocupante de perturbação florestal na região.
+Essas ocorrências têm sido uma constante nos municípios da região de estudo, incluindo Apuí-AM, Borba-AM, Novo Aripuanã-AM e Manicoré-AM. 
+A extração ilegal de recursos naturais não apenas ameaça a integridade ecológica das áreas úmidas, mas também provoca impactos significativos nos ecossistemas locais e nas comunidades que dependem dessas florestas para sua subsistência.
+Os dados obtidos através de monitoramentos contínuos, como o realizado pelo ArcGIS Pro e pela imagem Planet NICFI, são essenciais para a coleta de dados de atividade, necessários para o desenvolvimento dos mapas de risco e alocação de desmatamento nos projetos REDD. 
+Esses mapas são fundamentais para entender melhor as dinâmicas de desmatamento e aplicar estratégias eficazes de conservação, ajudando a proteger a Amazônia e a promover o uso sustentável de seus recursos naturais.
+
+Imagem 04 - Tabela dos Períodos de Referência Histórica e Validade da Linha de Base para Projetos REDD+ no Estado do Amazonas.
+
+Aplicação da Tabela de Dados de Atividade para HRP e BVP no Estado do Amazonas
+
+A tabela apresenta informações cruciais para o monitoramento de desmatamento e as emissões associadas de carbono no estado do Amazonas, dentro do contexto dos projetos REDD+ (Redução de Emissões por Desmatamento e Degradação Florestal).
+
+HRP (Período de Referência Histórica) para o Amazonas: O HRP, ou período de referência histórica, é o intervalo de tempo utilizado para estabelecer uma linha de base de desmatamento. 
+Para o estado do Amazonas, o HRP é de 01/01/2013 a 31/12/2022, totalizando 10 anos. 
+Esse período é selecionado para refletir as tendências históricas de desmatamento, proporcionando uma base de comparação para medir a eficácia das intervenções de REDD+.
+BVP (Período de Validade da Linha de Base) para o Amazonas: O BVP é o período durante o qual a linha de base estabelecida no HRP permanece válida. 
+Para o Amazonas, o BVP começa em 01/01/2023 e termina em 31/12/2028, cobrindo um total de 6 anos. 
+Durante esse período, as emissões evitadas são calculadas com base na linha de base de desmatamento definida no HRP, o que é essencial para medir a performance e os impactos dos projetos de REDD+.
+Total de Anos (HRP + BVP) para o Amazonas: Somando o HRP e o BVP, o total é de 16 anos. Esse período total é fundamental para a análise de longo prazo e a avaliação contínua das atividades de conservação e uso sustentável das florestas no estado.
+
+Importância desses Dados para Projetos REDD+ no Amazonas:
+
+No estado do Amazonas, esses períodos são críticos para definir a base de cálculo das emissões evitadas devido ao desmatamento. 
+Ao usar um HRP de 10 anos, é possível capturar as tendências históricas de desmatamento, enquanto o BVP de 6 anos fornece uma janela de tempo para aplicar e medir as ações de mitigação. 
+Essas informações são usadas para gerar créditos de carbono baseados em emissões evitadas, que são vitais para o financiamento e sustentabilidade dos projetos REDD+.
+
+Ao focar no Amazonas, a aplicação correta destes dados garante que os esforços de conservação sejam alinhados com as realidades locais, promovendo uma gestão mais eficaz e transparente das florestas e contribuindo para os objetivos globais de redução de emissões.
+Análise de uso do solo: Integração de dados de cobertura do solo de várias fontes, incluindo ESA Land Cover, Esri Land Cover e Dynamic World Sentinel-2, separados por ano, para identificar mudanças no uso do solo e estabelecer uma linha de base para as amostras.
+
+Imagem 05 - Dados de Atividade - Separados por classe exigidas pela Verra no desenvolvimento do mapa de risco. 
+
+2. Passo a Passo para a Aplicação das Metodologias Verra
+Passo 1: Coleta de Dados: Compilar dados de desmatamento e uso do solo de fontes confiáveis, como mencionadas acima, garantindo que cada dataset esteja atualizado e categorizado por ano.
+
+Passo 2: Criação de Mapas de Referência: Desenvolver mapas históricos de florestas e não-florestas (Mapas de Referência de Cobertura Florestal) usando dados do Mapbiomas e outras fontes relevantes para estabelecer uma linha de base de cobertura florestal.
+
+Passo 3: Desenvolvimento de Mapas de Risco: Aplicar modelos analíticos para gerar mapas de risco de desmatamento jurisdicional, utilizando os dados de entrada coletados e metodologias estatísticas adequadas para prever áreas suscetíveis ao desmatamento.
+
+Passo 4: Revisão e Validação por Terceiros: Submeter os dados e mapas desenvolvidos para revisão e validação por terceiros, assegurando a conformidade com os padrões de qualidade e precisão exigidos pela Verra.
+
+Passo 5: Alocação de Dados de Atividade: Consolidar os dados de atividade prontos para alocação a projetos específicos, conforme as diretrizes da Verra, garantindo a conformidade com as exigências de relatórios e monitoramento contínuo.
+
+
+3. Importância dos Dados de Atividade Jurisdicional
+
+Os dados de atividade jurisdicional capturam a área desmatada — medida em hectares — ao longo de um determinado período. 
+A alocação desses dados de atividade de desmatamento jurisdicional a projetos, em proporção ao risco relativo de desmatamento em áreas de projeto, é uma das principais inovações na metodologia VM0048, lançada no final de 2023. 
+Esta abordagem permite que os proponentes dos projetos deixem de usar regiões de referência para prever o desmatamento futuro.
+
+A coleta de dados de atividade jurisdicional é o primeiro passo para estabelecer as linhas de base dos projetos sob a metodologia VMD0055. 
+Os dados do mapa resultantes e as estimativas de desmatamento são, então, utilizados para criar os mapas de risco que permitem a alocação dos dados de atividade jurisdicional a projetos. 
+Essa abordagem para a definição da linha de base assegura que o número de reduções de emissões verificadas geradas por todos os projetos em uma jurisdição específica não exceda as reduções de emissões calculadas para essa jurisdição, 
+promovendo a alta integridade dos créditos de carbono emitidos para projetos VCS AUD.
+
+Imagem 06 - Mapa de Risco - HRP 2013 a 2022. 
+
+4. Atualizações Recentes da Verra
+As metodologias e processos para projetos REDD estão em constante evolução. A Verra anunciou recentemente várias atualizações que impactam diretamente a estrutura e a alocação de dados de atividade dos projetos:
+
+Cronograma Atualizado para Alocação de Dados de Atividade de Projetos REDD (8 de agosto de 2024): A Verra ajustou o cronograma para a alocação de dados de atividade, refletindo mudanças na disponibilidade e no processamento de dados. Fonte.
+Atualização na Estrutura Jurisdicional e Aninhada do REDD+ (19 de agosto de 2024): Esta atualização visa alinhar a estrutura do REDD+ com os princípios básicos de carbono, aumentando a eficácia e a transparência dos projetos. Fonte.
+Nova Taxa de Alocação de Dados de Atividade de Projeto (PADA): A implementação de uma nova taxa para a alocação de dados de atividade tem implicações significativas para o financiamento e a sustentabilidade dos projetos REDD. Fonte.
+Desenvolvimento de Dados Jurisdicionais Adicionais sob a Nova Metodologia REDD (23 de agosto de 2024): A Verra está avançando no desenvolvimento de dados jurisdicionais adicionais, o que ampliará a abrangência e a aplicabilidade das metodologias REDD em diferentes regiões. Fonte.
+
+
+Conclusão
+A aplicação rigorosa das metodologias da Verra e o uso de dados de alta qualidade são fundamentais para o sucesso dos projetos REDD na Amazônia Legal. Essas iniciativas não só ajudam a proteger a floresta tropical, mas também garantem a sustentabilidade econômica das comunidades locais e a integridade ecológica da região.
+
+Com as atualizações contínuas da Verra e a adaptação às novas diretrizes, os projetos REDD estão bem posicionados para enfrentar os desafios ambientais e climáticos atuais.
+
+Em breve, vou descrever um passo a passo mais detalhado sobre como selecionar os dados de atividade e desenvolver os mapas de risco utilizando as seguintes ferramentas:
+
+UDEF-ARP: Esta ferramenta é utilizada para criar mapas de vulnerabilidade ao desmatamento, aplicando métodos avançados de análise espacial e modelagem de risco para identificar áreas prioritárias para intervenção.
+Deforisk QGIS: Um plugin especializado para QGIS que permite a análise de risco de desmatamento, facilitando a visualização e a interpretação dos dados espaciais relacionados ao uso da terra e mudanças na cobertura florestal.
+Script utilizando ArcGIS Pro com Google Earth Engine: Este método combina o poder do ArcGIS Pro para análise geoespacial com o acesso a grandes volumes de dados de satélite através do Google Earth Engine. Ele é ideal para monitorar mudanças no uso da terra e modelar padrões de desmatamento em tempo real.
+
+Com essas ferramentas, será possível criar mapas de risco e selecionar dados de atividade com maior precisão e eficácia, ajudando a aprimorar as estratégias de conservação e mitigação de impactos ambientais nos projetos REDD.
+
+👉 Fique atento! Em breve, publicarei um tutorial detalhado sobre como selecionar dados de atividade e desenvolver mapas de risco utilizando ferramentas como UDEF-ARP, Deforisk QGIS e ArcGIS Pro com Google Earth Engine. Não perca!
+
+🔄 Estou atualizando o tutorial diariamente com novas informações e descrições das etapas.
+
+📊 Estamos disponíveis para consultorias e projetos voltados para MRV (Monitoramento, Relato e Verificação) em projetos de carbono.
+
+#REDD #MudancasClimaticas #ConservacaoFlorestal #Sustentabilidade #Verra #MetodologiasREDD #MapeamentoDeRisco #MonitoramentoAmbiental #Carbono #FlorestasTropicais #AmazoniaLegal #MapBiomas #GoogleEarthEngine #QGIS #ArcGISPro #CienciaDeDadosAmbientais #GestaoAmbiental #Ecossistemas #Desmatamento #Biodiversidade #GestaoDeRiscos
